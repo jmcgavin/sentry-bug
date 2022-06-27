@@ -1,0 +1,19 @@
+{
+  "name": "5321",
+  "description": "https://github.com/getsentry/sentry-javascript/issues/5321",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.32",
+    "@webcomponents/webcomponentsjs": "^2.6.0",
+    "esbuild": "^0.14.47",
+    "fs-extra": "^10.1.0"
+  },
+  "dependencies": {
+    "@sentry/browser": "^7.3.0",
+    "@sentry/tracing": "^7.3.0",
+    "lit": "^2.2.6"
+  }
+}
